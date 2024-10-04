@@ -107,6 +107,11 @@
               </span>
           </a>
       </div>
+
+      <div class="u-university-logos" style="display: flex; justify-content: center; align-items: center; margin-top: 20px; gap: 30px;">
+        <img src="images/output-onlinepngtools.png" alt="University of Gothenburg" style="width: 600px; height: auto;">
+      </div>
+
       </div>
     </section>
     <hr style="border: 0.5px solid #ccc; margin: 0.1px 0;"/>
@@ -119,16 +124,14 @@
                 <div class="u-container-layout u-valign-top u-container-layout-1">
                   <h1 class="u-custom-font u-font-merriweather u-text u-text-palette-2-base u-text-1" spellcheck="false">SAICOM</h1>
                   <h6 class="u-text u-text-2"> Software Artificial Intelligence for Communications</h6>
-                  <h5 class="u-custom-font u-text u-text-font u-text-4" spellcheck="false"> Understanding systems as formed by smartphones, smart appliances, and safety-critical components and infrastructure and the communication infrastructure as a “living organism”.&nbsp;<br>
-                  
+                  <h5 class="u-custom-font u-text u-text-font u-text-4" spellcheck="false"> We understand systems formed by smartphones, smart appliances, safety-critical components and the communication infrastructure as a “living organism” requiring adaptive approaches for this new software-defined-X world.&nbsp;<br>
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-size-28 u-layout-cell-2">
                 <div class="u-container-layout u-container-layout-2">
-                  <h6 class="u-custom-font u-font-ubuntu u-text u-text-palette-2-base u-text-3" spellcheck="false"> My research work is funded by the project SAICOM, A colloboration between three main swedish universtities, KTH Royal Institute of Technology, Stockholm, Chalmers University of Technology, Gothenburg, and the University of Gothenburg, Gothenburg&nbsp;<br>
+                  <h6 class="u-custom-font u-font-ubuntu u-text u-text-palette-2-base u-text-3" spellcheck="false"> My research is by the project SAICOM, a colloboration between KTH Royal Institute of Technology in Stockholm, Chalmers University of Technology in Gothenburg, and the University of Gothenburg. The project is supported by the Swedish Foundation for Strategic Research (SSF), Grant Number FUS21-0004 SAICOM and the Wallenberg AI, Autonomous Systems and Software Program (WASP) funded by the Knut and Alice Wallenberg Foundation.&nbsp;<br>
                   </h6>
-                  <h5 class="u-custom-font u-text u-text-font u-text-4" spellcheck="false"> Within the SAICOM project, we investigate ways to improve the allocation, coordination and orchestration of compute workload, computing capabilities, Data characteristics and Connectivity opportunities. &nbsp;<br>
-                  
+                  <h5 class="u-custom-font u-text u-text-font u-text-4" spellcheck="false"> We investigate ways to improve the allocation, coordination and orchestration of computing demands, computing capabilities, data characteristics and connectivity opportunities. &nbsp;<br>                  
                     <br>
                     <br>
                   </h5>
@@ -138,6 +141,10 @@
           </div>
         </div>
       </div>
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: -120px;">
+        <img src="images/WASP-logotype-white.png" alt="WASP" style="width: 400px; height: auto; margin-right: 10px; ">
+        <img src="images/SSFoutput-onlinepngtools.png" alt="SSF" style="width: 150px; height: auto; ">
+    </div>  
     </section>
     <hr style="border: 0.5px solid #ccc; margin: 0.1px 0;"/>
 <!-- new section to be updated with short abstract -->
@@ -151,10 +158,18 @@
                           <div class="u-container-layout u-valign-top u-container-layout-1">
                               <h1 class="u-custom-font u-font-merriweather u-text u-text-palette-2-base u-text-1" spellcheck="false">Research Direction</h1>
                               <h6 class="u-text u-text-2">Resource Utilization for Automotive</h6>
-                              <h5 class="u-custom-font u-text u-text-font u-text-4" spellcheck="false">My research mainly focuses on resource utilization for automotive domain considering a practical application scenario called “Looking around the corner” problem. We propose a framework with the title AirDnD - Asynchronous in-Range Dynamic and Distributed Network for Resource Orchestration, as a solution to the “Looking around the corner” problem where we envision a dialogue between the vehicles in close proximity to understand the environment 
-                                and it’s traffic scenarios. We leverage multimodal data retrieved from Advanced Driver Assistance Systems (ADAS) within this framework to support the dialogue. We utilize Large Language Models (LLMs) to initiate efficient dialogues between the vehicles given their availability in future vehicles as inbuilt foundational models. Through our research work, we focus on how LLMs can support the perception related tasks of the vehicles by establishing this aforementioned dialog and performing pedestrian detection and localization. 
-                                <br><br> Furthermore, we focus on hallucination detection and mitigation of LLMs that are used in perception related asks for automotive domain. Our research has proposed hallucination mitigation techniques that use temporal data for hallucination detection. In order to that, we also propose an adaptation of SelfCheckGPT, a hallucination mitigation technique to automotive domain as a testing framework to ensure safety of AirDnD. 
-                                &nbsp;<br>
+                              <h5 class="u-custom-font u-text u-text-font u-text-4" spellcheck="false">My research focuses on resource utilization on the example of the automotive domain. 
+                                We consider industrially relevant application scenarios like enriching a vehicle's field-of-view in its sorroundings for situations such as “looking around the corner” at urban intersections, where the direct line-of-sight may be occluded. 
+                                We propose a framework entitled AirDnD - Asynchronous in-Range Dynamic and Distributed Network for Resource Orchestration, as a novel approach for such real-world challenge. 
+                                Our concept allows entities of this living organism to engage in a problem-centric, solution oriented dialogue. 
+                                For the automotive example, vehicles in close proximity aim at enriching their Understanding of the environment and it’s traffic scenarios. 
+                                As modern Advanced Driver Assistance Systems (ADAS) already process substantial amounts of multimodal data from cameras, GPS, and inertial measurement platforms, simply streaming all such data between all interested participant entities is not an efficient 
+                                use of available resources, including communication infrastructure (such as VANETs) and computing capabilities. 
+                                In the spirit of resource sharing among the Internet-of-Vehicles, we envision a concept to enable dialogues about the vehicles’ environments instead of “just telling what everything sees on the raw data streaming level”. 
+                                We exploit onboard Large Language Models (LLMs) to initiate such dialogues between the vehicles to query and inform on higher levels about traffic situations focusing on how LLMs can support perception related tasks such as pedestrian detection and localization. 
+                                However, LLMs and Foundation Models may suffer from hallucination effects and therefore, detection and mitigation strategies are needed. 
+                                Our research proposes suitable techniques for identifying and mitigating hallucinations by leveraging temporal information. We adapt SelfCheckGPT, originally a hallucination mitigation technique for text generation tasks, to address the safety-critical context of AirDnD
+                                 &nbsp;<br>
                               </h5>
                               <!-- <h5 class="u-custom-font u-text u-text-font u-text-4" spellcheck="false">Furthermore, we focus on hallucination detection and mitigation of LLMs that are used in perception related asks for automotive domain. Our research has proposed hallucination mitigation techniques that use temporal data for hallucination detection. In order to that, we also propose an adaptation of SelfCheckGPT, a hallucination mitigation technique to automotive domain as a testing framework to ensure safety of AirDnD. &nbsp;<br>
                               </h5> -->
@@ -401,7 +416,7 @@
     
     
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9d38"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
+    <!-- <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9d38"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
         <span>Website Templates</span>
@@ -412,6 +427,6 @@
       <a class="u-link" href="" target="_blank">
         <span>Website Builder Software</span>
       </a>. 
-    </section>
+    </section> -->
   
 </body></html>
